@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Poppins:wght@300;400;500&display=swap');
+
+
+:root{
+    --lg-font:'Kaisei Tokumin', serif;
+    --sm-font:'Poppins', sans-serif;
+    --pink:#e5345b;
+}
+
+
+body{
+    font-family: var(--sm-font);
+    
+}
+
+/* button */
+
+.bg-primary{
+    background-color: var(--pink);
+}
+.btn:not(.nav-btns){
+    background-color: #fff;
+    color: rgb(85,85,85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border-color: rgba(0,0,0,0.5);
+  
+}
+.btn:not(.nav-btns):hover{
+    background-color: #e5345b;
+    color: #fff;
+    border-color: #e5345b;
+
+
+}
+
+/* navbar */
+
+.nav-top{
+    box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);
+}
+/* .navbar-brand img{
+
+} */
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+
+
+#nav:hover{
+    color:#e5345b;
+}
+
+.nav-item{
+    border-bottom: 0.5px solid  rgba(0,0,0,0.5);
+    white-space:pre; 
+
+}
+
+/* ul{
+    list-style: none;
+} */
+
+/* header */
+
+#header{
+    background: url(../wo4.jpg) top/cover no-repeat;
+    
+}
+
+.carousel-inner h1,h2{
+    padding-top: 400px;
+}
+
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+
+.carousel-item .btn{
+    border-color: #fff;
+}
+
+.carousel-item .btn:hover{
+    border-color: #e5345b;
+
+}
+
+
+/* title */
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: #e5345b;
+    left: -20px;
+    top:50%;
+    transform: translateY(-50%)
+}
+
+.title h2{
+    padding: 0;
+}
+
+
+/* collection */
+
+.collection-img span{
+    top:20px;
+    right:20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.collection-img img{
+    transition: all 0.3s ease;
+}
+.collection-img img:hover{
+    transform: scale(1.2);
+}
+
+/* special */
+
+.special-img span{
+    top:20px;
+    right:20px
+}
+
+.special-list .btn{
+    padding: 8px 20px;
+}
+.special-img img{
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    transform: scale(1.2);
+}
+
+
+/* footer */
+footer .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+footer a{
+    transition: color 0.3s ease;
+}
+footer a:hover{
+    color: #e5345b;
+}
+
+@media(min-width:992px){
+    .nav-item{
+        border-bottom:none
+    }
+}
