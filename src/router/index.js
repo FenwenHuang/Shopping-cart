@@ -2,6 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Collection from '../views/Collection.vue'
+import Special from '../views/Special.vue'
+import Design from '../views/Design.vue'
+
+
 
 import { LayoutPlugin } from 'bootstrap-vue'
 
@@ -10,7 +14,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: Home
+    component:Home
   },
   {
     path: '/login',
@@ -25,6 +29,16 @@ const routes = [
     path: '/collection',
     name: 'collection',
     component: Collection
+  },
+  {
+    path: '/special',
+    name: 'special',
+    component: Special
+  },
+  {
+    path: '/design',
+    name: 'design',
+    component: Design
   },
 ]
 

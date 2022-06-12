@@ -55,9 +55,10 @@
                 <div class="collapse navbar-collapse order-lg-1" id="navMenu">
                     <ul class="navbar-nav  text-center">
                         <li class="nav-item px-2"><a id="nav" class="nav-link" href="/">HOME</a></li>
-                        <li class="nav-item px-2"><a id="nav" class="nav-link" href="/#collection">COLLECTION</a></li>
-                        <li class="nav-item px-2"><a id="nav" class="nav-link" href="/#design">PRODUCT DESIGN</a></li>
-                        <li class="nav-item px-2 border-0"><a id="nav" class="nav-link" href="/#about">ABOUT US</a></li>
+                        <li class="nav-item px-2"> <a id="nav" class="nav-link" href="/collection">COLLECTION</a></li>
+                        <li class="nav-item px-2"> <a id="nav" class="nav-link" href="/special">SPECIAL</a></li>
+                        <li class="nav-item px-2"><a id="nav" class="nav-link" href="/design">PRODUCT DESIGN</a></li>
+        
 
                     </ul>
 
