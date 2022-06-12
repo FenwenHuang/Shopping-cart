@@ -13,24 +13,24 @@
                 <h5 class="fw-light">Links</h5>
                 <ul class="">
                     <li class="my-3">
-                        <a href="/" class="text-white text-decoration-none text-muted">
-                            <i class="fas fa-chevron-right me-1"></i>Home
-                        </a>
+                        
+                            <router-link to="/" class="text-white text-decoration-none text-muted">Home
+                            <i class="fas fa-chevron-right me-1"></i></router-link>
+                        
                     </li>
                     <li class="my-3">
-                        <a href="/collection" class="text-white text-decoration-none text-muted">
-                            <i class="fas fa-chevron-right me-1"></i>Collection
-                        </a>
+                            <router-link to="/collection" class="text-white text-decoration-none text-muted">Collection
+                            <i class="fas fa-chevron-right me-1"></i></router-link>
+                        
                     </li>
                     <li class="my-3">
-                        <a href="/design" class="text-white text-decoration-none text-muted">
-                            <i class="fas fa-chevron-right me-1"></i>Product Design
-                        </a>
+                            <router-link to="/special" class="text-white text-decoration-none text-muted">Special
+                            <i class="fas fa-chevron-right me-1"></i></router-link>
+                      
                     </li>
                     <li class="my-3">
-                        <a href="/" class="text-white text-decoration-none text-muted">
-                            <i class="fas fa-chevron-right me-1"></i>About Us
-                        </a>
+                           <router-link to="/design" class="text-white text-decoration-none text-muted">Product Design
+                            <i class="fas fa-chevron-right me-1"></i></router-link>
                     </li>
                 </ul>
             </div>
