@@ -4,7 +4,7 @@
 
 <div class="nav">
 
-<!-- <router-link to="/homeview"></router-link> -->
+<!-- <router-link to="/home"></router-link> -->
 
       
 
